@@ -1,0 +1,11 @@
+# Large data files — don't push these
+data/candidates.jsonl
+artifacts/features_full.parquet
+artifacts/embeddings_cache.npy
+artifacts/embeddings_ids.npy
+
+# Python cache
+__pycache__/
+*.pyc
+venv/
+.env
